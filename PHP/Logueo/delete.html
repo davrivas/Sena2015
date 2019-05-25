@@ -1,0 +1,38 @@
+<html>
+<head>
+<link href="estilo.css" rel="stylesheet" type="text/css">
+<link rel="icon" href="images/logo.png" />
+<title>Borrar datos</title>
+</head>
+<body>
+	<h1><br /><table align="center" border="0"><tr><td><a href="index.php"><img src="images/ejercicios.gif" /></a><br /></td></tr></table>Borrar datos</h1>
+	<table align="center" bgcolor="darkblue">
+	<form action="delete.php" method="post">	
+		<tr>
+			<td colspan="5" height="10px"></td>
+		</tr>
+		<tr>
+			<td rowspan="3" width="10px"></td>
+			<td align="center"><b>Tipo de dato</b></td>
+			<td rowspan="2">&nbsp;&nbsp;&nbsp;</td>	
+			<td align="center"><select name="dato">
+				<option value="Name">Nombre</option>
+				<option value="Surname">Apellido</option>
+				<option value="Email">Correo</option>
+				<option value="pw">Contrase&ntilde;a</option>
+			</select></td>
+			<td rowspan="3" width="10px"></td>		
+		</tr>
+		<tr>
+			<td align="center"><b>Dato</b></td>
+			<td><input type="text" name="dato" required="required" /></td>
+		</tr>
+		<tr><td colspan="3"><p align="center"><br /><input type="submit" style="background-color: yellow; color: blue; border-color: grey; border-width: medium; padding-bottom: 0.5em; padding-left: 0.5em; padding-top: 0.5em; padding-right: 0.5em" value="Actualizar datos" /></p></td></tr>
+		<tr>
+			<td colspan="5" height="10px"></td>
+		</tr>		
+	</form>		
+	</table>
+	<h1><br /></h1><footer><table width="100%" background="white"><tr><td align="center">Realizado por David Santiago Rivas Agudelo<br />Ficha 903172 R2</td><tr></table></footer>
+</body>
+</html>	
