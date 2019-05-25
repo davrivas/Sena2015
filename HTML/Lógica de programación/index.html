@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <link rel="icon" type="image/png" href="static/images/favicon.png" />
+        <link rel="stylesheet" text="type/css" href="static/style/style.css">
+        <title>Lógica de programación por David Rivas</title>
+    </head>
+<body>
+    <img alt="Lógica" src="static/images/logo.gif" type="image/gif">
+
+    <hr align="center" size="5" noshade>
+
+    <section id="wrapper">
+        <section id="content">
+            <h1 id="Contenido">Contenido:</h1>
+             
+            <ol id="content-list">
+                <li>
+                    <a href="#Definiciones">Definiciones</a>
+                </li>
+                <li>
+                    <a href="#Algoritmo">Algoritmo</a>
+                </li>
+                <li>
+                    <a href="#Pseudocogido">Pseudocógido</a>
+                </li>
+                <li>
+                    <a href="#Flujo">Diagrama de flujo</a>
+                </li>
+                <li>
+                    <a href="#Variable">Variable</a>
+                </li>
+                <li>
+                    <a href="#Constante">Constante</a>
+                </li>
+                <li>
+                    <a href="#Asignacion">Asignación</a>
+                </li>
+                <li>
+                    <a href="Operadores">Operadores</a>
+                </li>
+                <li>
+                    <a href="#Basic">Estructuras básicas</a>
+
+                    <ol class="list-two">
+                        <li><a href="#Decisiones">Decisiones</a></li>
+                        <li><a href="#Ciclos">Ciclos</a></li>
+                        <li><a href="#Vectores">Vectores</a></li>
+                        <li><a href="#Matrices">Matrices</a></li>
+                    </ol>
+                </li>
+
+                <li>
+                    <a href="#ProgLang">Lenguaje de programación</a>
+
+                    <ol class="list-two">
+                        <li><a href="#MachLang">Lenguaje máquina</a></li>
+                        <li><a href="#low-lang">Lenguaje de bajo nivel</a></li>
+                        <li><a href="#high-lang">Lenguaje de alto nivel</a></li>
+                    </ol>
+                </li>
+            </ol>
+        </section>
+       
+        <h1 id="Definiciones">Definiciones</h1>
+
+        <p>Primero definamos lo que es <strong>LÓGICA</strong>:</p>
+        
+        <ul>
+            <li>Serie coherente de ideas y razonamientos.</li>
+            <li>Ciencia que estudia la estructura, fundamentos y uso de las expresiones del conocimiento humano.</li>
+            <li>Representación intelectual de un objeto, diferenciándose, de lo sentido, lo percibido, lo imaginado o lo recordado. Las propiedades de los conceptos son la comprensión y la extensión.</li>
+        </ul>
+
+        <p>Y por último definamos lo que es <strong>PROGRAMACIÓN</strong></p>
+
+        <ul>
+            <li>Acción y efecto de programar.</li>
+            <li>Proceso de toma de decisiones.</li>
+        </ul>
+
+        <p>En pocas palabras podemos definir a la lógica de programación como un proceso que permite dar a solución a ciertos problemas que pueden llegar a ser implementados a través de una computadora.</p>
+
+        <img alt="Cerebro digital" src="static/images/01 logica.jpg">
+
+
+        <h1 id="Algoritmo">Algoritmo</h1>
+
+        <p>Es un conjunto de ordenes lógicas, nemónicas y entendibles que realizan funciones específicas que el programador escribe. Se clasifican de la siguiente manera:</p>
+
+        <ul>	
+            <li><strong>Cualitativo:</strong> Son los algoritmos que no requieren de operaciones matemáticas.</li>
+            <li><strong>Cuantitativo:</strong> Son los algoritmos que si requieren de operaciones matemáticas.</li>
+        </ul>
+
+
+        <h1 id="Pseudocogido">Pseudocógido</h1>
+        
+        <p>Texto basado en unas normas técnicas que lo hace muy entendible y sobre todo fácil de codificar y que representa, obviamente, la solución que hayamos planteado a través de un algoritmo.</p>
+
+        <img alt="Pseudocódigo" src="static/images/02 pseucod.png">
+
+
+        <h1 id="Flujo">Diagrama de flujo</h1>
+
+        <p>Los diagramas de flujo son la representación gráfica de una serie de pasos ordenados y lógicos que llevan a la solución de un problema.</p>
+
+        <img alt="Diagrama de flujo" src="static/images/03 diagfl.png">
+
+        <p>Éstos son los simbolos que representan algunas acciones:</p>
+
+        <table border="1">
+            <thead>
+                <tr>
+                    <td>Simbolo</td>
+                    <td>Representa</td>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td align="center"><strong>Terminal</strong></td>
+                    <td rowspan="2">Indica el inicio o la terminación del flujo del proceso.</td>
+                </tr>
+
+                <tr>
+                    <td align="center"><img alt="Terminal" src="static/images/03 diagfl 01.png"></td>
+                </tr>
+
+                <tr>
+                    <td align="center"><strong>Línea de flujo</strong></td>
+                    <td rowspan="2">Proporciona indicación sobre el sentido de flujo del proceso.</td>
+                </tr>
+
+                <tr>
+                    <td align="center"><img alt="Flujo" src="static/images/03 diagfl 02.png"></td>
+                </tr>
+
+                <tr>
+                    <td align="center"><strong>Actividad</strong></td>
+                    <td rowspan="2">Representa una actividad llevada a cabo en el proceso.</td>
+                </tr>
+
+                <tr>
+                    <td align="center"><img alt="Actividad" src="static/images/03 diagfl 03.png"></td>
+                </tr>
+
+                <tr>
+                    <td align="center"><strong>Decisión</strong></td>
+                    <td rowspan="2">Indica un punto en el flujo en que se produce una bifurcación (división de acciones) del tipo "SI" &mdash; "NO"</td>
+                </tr>
+
+                <tr>
+                    <td align="center"><img alt="Decisión" src="static/images/03 diagfl 04.png"></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h1 id="Variable">Variable</h1>
+
+        <p>Es el nombre que se le da a un campo de memoria que siempre va a cambiar. Los tipos de variables son los siguientes:</p>
+        <ul>
+        <li><strong>Entero:</strong> sirven para almacenar datos enteros. Los enteros son números sin decimales. Se pueden asignar enteros normales o enteros octales y hexadecimales.</li>
+        <li><strong>Real:</strong> es el tipo de dato que corresponde a los números reales.</li>
+        <li><strong>Carácter:</strong> es el tipo de dato  que corresponden a los caracteres alfanuméricos.</li>
+        </ul>
+        <p>Es obligatorio declarar las variables antes de iniciar la secuencia de acciones en un algoritmo.</p>
+
+        <h1 id="Constante">Constante</h1>
+
+        <p>Es un dato numérico o alfanumérico que no cambia durante todo el desarrollo del algoritmo o durante la ejecución del programa. Un buen ejemplo sería:</p>
+        <ul>
+        <li><strong>Pi (&#928) = </strong>3,14159265358979323846...</li>
+        </ul>
+
+        <h1 id="Asignacion">Asignación</h1>
+
+        <p>Es simplemente darle un valor a una variable dependiendo de otra variable o de una constante. Se pueden asignar un valor determinado para inicializar una variable que pueda desempe&ntildear determinadas funciones.</p>
+        
+        <img alt="Asignación" src="static/images/04 asig.png">
+
+        <h1 id="Operadores">Operadores</h1>
+
+        <p>Los operadores son expresiones que nos permiten expresar relaciones entre variables y/o constantes, relaciones de las cuales se desprende normalmente un resultado. Los tipos de operadores básicos son los siguientes:</p>
+
+        <table border="1">
+            <thead>
+                <tr>
+                    <td>Aritmeticos</td>
+                    <td>Lógicos</td>				
+                    <td>Relacionales</td>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>
+                        <ul class="operators">
+                            <li>+</li>
+                            <li>-</li>
+                            <li>*</li>
+                            <li>/</li>
+                            <li>^</li>
+                            <li>sqrt()</li>
+                            <li>sin()</li>
+                            <li>cos()</li>
+                            <li>tan()</li>
+                        </ul>
+                    </td>
+
+                    <td>
+                        <ul class="operators">
+                            <li>y (&&, and)</li>
+                            <li>o (||, or)</li>
+                        </ul>
+                    </td>
+
+                    <td>
+                        <ul class="operators">                            
+                            <li>></li>
+                            <li><</li>
+                            <li>=, == o ===</li>
+                            <li><></li>
+                            <li>>= o >==</li>
+                            <li><= o <==</li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        
+        <h1 id="Basic">Estructuras básicas</h1>
+
+        <p>Son comandos que se pueden ejecutar en un algoritmo, éstos son:</p>
+
+        <h2 id="Decisiones">Decisiones</h2>
+
+        <p>Estos permiten escoger entre un camino verdadero y/o falso. Éstos también se pueden anidar.</p>
+
+        <img alt="Decisiones" src="static/images/05 dec.png">
+
+        <h2 id="Ciclos">Ciclos</h2>
+
+        <p>Son un determinado número de repeticiones en las cuales se pueden hacer las acciones que se van a llevar a cabo. Se pueden expresar en 3 tipos de estructuras pero solamente explicaremos 2 de ellas:</p>
+
+        <img alt="Ciclo para" id="bucles" src="static/images/06 para.png">
+
+        <img alt="Ciclo mientras" src="static/images/07 mientras.png">
+
+        <h2 id="Vectores">Vectores</h2>
+
+        <p>Es un conjunto de variables, todas del mismo tipo. Para asignarle valores a las variables se necesita un ciclo.</p>
+
+        <img alt="Vectores" src="static/images/08 vector.png">
+
+        <h2 id="Matrices">Matrices</h2>
+
+        <p>Es simplemente un conjunto de vectores. Las variables se distribuyen en filas y columnas, por esta razón debe haber un ciclo dentro de otro.</p>
+
+        <img alt="Matriz" src="static/images/09 matriz.png">
+
+        <h1 id="ProgLang">Lenguaje de programación</h1>
+
+        <p>Son lenguajes artificiales que expresan procesos que las máquinas ejecutan para poder crear programas. Los tipos de lenguajes son los siguientes:</p>
+
+        <h2 id="MachLang">Lenguaje máquina</h2>
+
+        <p>Son los lenguajes más primitivos en la computación, pero como son difíciles de utilizar, ahora ya se emplean otros tipos de lenguajes. Utiliza el alfabeto binario (0, 1)</p>
+
+        <img alt="Lenguaje máquina" src="static/images/10 lengmq.jpg">
+
+        <h2 id="low-lang">Lenguaje de bajo nivel</h2>
+
+        <p>También llamados lenguaje ensamblador, son los que están orientados a procesos que expresan una mínima lógica aritmética, además están estrechamente vinculados con el hardware. Por norma general están disponibles a nivel de firmware. Las instrucciones en lenguaje ensamblador son instrucciones conocidas como nemotécnicos. Por ejemplo, nemotécnicos típicos de operaciones aritméticas son: en inglés, <em>ADD, SUB, DIV, etc.</em> en español, <em>SUM, RES, DIV, etc.</em></p>
+
+        <h2 id="high-lang">Lenguaje de alto nivel</h2>
+
+        <p>Son los que permiten escribir órdenes con palabras (generalmente en inglés) de fácil comprensión, de fácil sintaxis, palabras reservadas y nemónicas (fáciles de recordar).</p>
+
+        <img alt="Lenguaje de alto nivel" src="static/images/11 lengan.png">
+
+        <p>Algunos ejemplos de lenguajes de alto nivel:</p>
+
+        <ul>
+            <li>
+                <strong>Pascal:</strong> es uno de los lenguajes de programación más importantes de la historia de la programación. Creado en 1970 por Niklaus Wirth, nombrado en honor al matemático francés Blaise Pascal. Hoy en día es todavía usado.<br>
+
+                <img alt="Pascal ejemplo" src="static/images/12 pascal.png">
+            </li>
+
+            <li>
+                <strong>C:</strong> lenguaje imperativo diseñado para el sistema operativo UNIX. Diseñado a principios de 1970 por Ken Thompson y Dennis Ritchie. C es un lenguaje compilado.
+            </li>
+
+            <li>
+                <strong>C++:</strong> es nombrado también como "C con clases" ya que es un lenguaje orientado a clases, que es una rama de la programación orientada a objetos. A traves de los años se le fueron añadiendo mejores características.<br>
+
+                <img alt="C++" src="static/images/13 cpp.png">
+            </li>
+
+            <li>
+                <strong>Java:</strong> lenguaje de programación incialmente desarrollado en 1995 por Sun Microsystems, que hoy en día hace parte de la corporación Oracle. su sintaxis es similar a la de C y C++. Es hasta ahora el lenguaje de programación más popular que existe. Java fue desarrollado para cumplir 5 objetivos específicos:<br>
+                <ul>
+                    <li>Debería ser simple, orientado a objetos, distribuido y fácil de aprender</li>
+
+                    <li>Debería ser amplio y seguro.</li>
+
+                    <li>Debería ser independiente de determinada computadora o arquitectura.</li>
+
+                    <li>Debería ser un buen lenguaje para programar.</li>
+                    
+                    <li>Debería ser posible escribir un intérprete para el lenguaje. El lenguaje debería soportar paralelismo y usar una digitación dinámica.</li>
+                </ul>
+            </li>
+
+            <img alt="Java" src="static/images/14 java.png">
+        </ul>
+    </section>
+
+    <footer align="center">
+        Realizado por David Santiago Rivas Agudelo<br>
+        Ficha de Caracterización 903172 R2<br>
+        Correo de Mi Sena: dsrivas2@misena.edu.co
+    </footer>
+</body>
+</html>
